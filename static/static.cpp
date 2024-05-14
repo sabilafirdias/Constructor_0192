@@ -20,5 +20,7 @@ public:
     }
 };
 
+int Mahasiswa::nim = 192;       //panggil kelasnya dulu baru objeknya. :: untuk memanggil di luar class
+
 
 
