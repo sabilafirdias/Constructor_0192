@@ -10,4 +10,16 @@ private:
     int nim;
     string nama;
 public:
-    
+    mahasiswa();
+    mahasiswa(int a) {
+        nim = a;
+    };
+    mahasiswa(string b) {
+        nim = 0;
+        nama = b;
+    };
+    mahasiswa(int iNim, string iNama);
+    void cetak();
+};
+
+
