@@ -8,6 +8,7 @@ class angka {
 private:
     int* arr;
     int panjang;
+public:
 };
 
 int main()
