@@ -13,12 +13,15 @@ public:
         return *this;   //chain function
     }
     string getJudul() {
-        return this->judul;
+        return this->judul;  
     }
-};
+} bukunya;
 
 int main()
 {
-    
+    // bukunya.setJudul("Matematika");
+    // cout << bukuny.getJudul();
+    cout << bukunya.setJudul("Matematika").getJudul();      //chain function calls
+
 }
 
