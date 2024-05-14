@@ -4,8 +4,12 @@
 #include <iostream>
 using namespace std;
 
+//nama class harus diawali kapital
 class Mahasiswa {
 
 public:
-    
+    static int nim;
+    int id;
+    string nama;
 
+    
